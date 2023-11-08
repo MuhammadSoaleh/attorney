@@ -62,6 +62,7 @@
 
 
 <?php 
+session_start();
 if (isset($_GET['search'])){
     include('conn.php');
     $name=$_GET['search_term'];
