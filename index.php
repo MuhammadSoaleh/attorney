@@ -174,7 +174,7 @@ if(isset($_POST['submit'])){
 	
 	<li><a href="contact.php" >Contact us</a></li>
 	<?php
-session_start();
+
 if (isset($_SESSION['email'])) {
     echo '<li class="dropdown"  ><a href="#" style="text-transform: none !important;">' . $_SESSION['email'] . '</a>
         <ul>
