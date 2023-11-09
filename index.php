@@ -1,4 +1,4 @@
-
+<style>
 .primary-btn {
   /* display: inline-block; */
   font-size: 15px;
@@ -47,7 +47,7 @@
   -o-transition: all, 0.7s;
   transition: all, 0.7s;
 }
-
+</style>
 
 
 
@@ -612,7 +612,7 @@ if (isset($_SESSION['email'])) {
 								<div class="content">
 									<span class="icon flaticon-house-outline"></span>
 									<h4><a href="services-detail.html">Real Estate law</a></h4>
-									<a href="services-detail.html" class="theme-btn btn-style-one">consult now</a>
+									<a href="services-detail.html" class="theme-btn btn-style-one primary-btn">consult now</a>
 								</div>
 							</div>
 						</div>
